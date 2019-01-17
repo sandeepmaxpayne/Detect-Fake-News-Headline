@@ -1,0 +1,18 @@
+1.Design a model capable of analyzing data and metadata related to each News headline and assigning a category to the headline.
+2.Each entry has a news headline and a category among other features (provided below).
+3.The model thus trained should be able to generalize to a set of not-yet annotated News Headlines: The model is expected to guess the correct News Headline category of data not necessarily belonging to the same source of the News Headlines dataset.
+4.You are given a dataset that contains more than 200k labeled news headlines.
+5.Your task is to identify the category of a news headline from a fixed category set. Add the output to the root git f6.older given.
+6.The predictions validation metric will be the F1-score.
+
+The training set contains 202,372 records.
+
+Each json record contains the following attributes:
+
+id: ID of the News Headline.
+
+category: Category of the News Headline.
+
+headline: The News headline.
+
+short_description: Short description of the News Article
